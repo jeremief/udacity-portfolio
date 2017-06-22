@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+        <title>Jeremie's Portfolio</title>
+
+        <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/additional-css/styles.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="static/bootstrap/js/bootstrap.min.js"></script>
+        <base target="_blank">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6" >
+                    <p class="logo"><a class="logo-link" href="/">JF</a></p>
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1>Jeremie Faye</h1>
+                    <h3>Web Developer</h3>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <!-- </div> -->
+                
+            <section id="Featured_work">   
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Featured Work</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 800px)" srcset="static/images/resp_images/office-very_large.png" >
+                                <source media="(min-width: 320px)" srcset="static/images/resp_images/office-medium.png" >
+                                <img class="img-responsive" src="static/images/resp_images/office-small.png" alt="picture of an iMac on a table">
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 800px)" srcset="static/images/resp_images/Restaurants-large.png">
+                                <source media="(min-width: 320px)" srcset="static/images/resp_images/Restaurants-medium.png">
+                                <img class="img-responsive  project-picture" src="static/images/resp_images/Restaurants-small.png" data-toggle="modal" data-target="#project2" alt="Screenshot of my Menu App website">
+                            </picture>
+                        </figure>
+                        <h3>Menu App</h3>
+                        <p><a href="https://github.com/jeremief/menuappfinal">Link to project</a></p>
+                    </div>
+                <!-- </div> -->
+                
+                <!-- <div class="row"> -->
+                    <div class="col-md-4">
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 800px)" srcset="static/images/resp_images/Esha-large.png">
+                                <source media="(min-width: 320px)" srcset="static/images/resp_images/Esha-medium.png">
+                                <img class="img-responsive  project-picture" src="static/images/resp_images/Esha-small.png" data-toggle="modal" data-target="#project3" alt="Screenshot of my Restaurant website">
+                            </picture>
+                        </figure>
+                        <h3>Esha's Restaurant</h3>
+                        <p><a href="https://github.com/jeremief/eshasrestaurant">Link to project</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <picture>
+                                <source media="(min-width: 800px)" srcset="static/images/resp_images/Emporium-large.png">
+                                <source media="(min-width: 320px)" srcset="static/images/resp_images/Emporium-medium.png">
+                                <img class="img-responsive  project-picture" src="../static/images/resp_images/Emporium-small.png" data-toggle="modal" data-target="#project4" alt="Screenshot of my catalog website">
+                            </picture>
+                        </figure>
+                        <h3>Jez Emporium</h3>
+                        <p><a href="https://github.com/jeremief/jezemporiumtwo">Link to project</a></p>
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="modals">
+
+            <!-- Modal 2-->
+            <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel2">Menu App</h4>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <picture>
+                                    <img class="img-responsive" src="static/images/resp_images/Restaurants-small.png" alt="Screenshot of my Menu App website">
+                                </picture>
+                                This project explores the CRUD functionality of a database by giving the user the ability to view, add, delete or modify existing menus. The implementation uses the Flask framework with a PostgresSQL database.
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 3-->
+            <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel3">Esha's Restaurant</h4>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <picture>
+                                    <img class="img-responsive" src="static/images/resp_images/Esha-small.png" alt="Screenshot of my Restaurant website">
+                                </picture>
+                                This was part of General Assembly tutorial designed to introduce developers to the basics of web devolpment.
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 4-->
+            <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel4">Jez Emporium</h4>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <picture>
+                                    <img class="img-responsive" src="static/images/resp_images/Emporium-small.png" alt="Screenshot of my catalog website">
+                                </picture>
+                                This project is similar in concept to the Menu App but adds OAuth2 login management and deployment to heroku.
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+    </body>
+</html>
