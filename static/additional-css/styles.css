@@ -7,6 +7,51 @@ body {
 }
 
 .divider {
-    border-top: 3px double #8c8b8b;
+    border-top: 3px simple #2d3c49;
 }
 
+h1 {
+    color: #2d3c49;
+}
+
+h2 {
+    color: #7d97ad;
+}
+
+
+p {
+    color: #2d3c49;
+    text-align: center;
+}
+
+a {
+    color: #2d3c49;
+}
+
+.app-title {
+    color: #2d3c49;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    border-radius: 50%;
+    border-style: solid;
+    border: solid 4px ;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    padding-top: 0.18em;
+    margin-top: 0.6em;
+    color: #02b3e4;
+}
+
+.logo-link {
+    color: #02b3e4;   
+
+}
+
+.logo-link:hover {
+    text-decoration: none;
+    color: #02b3e4;   
+}
