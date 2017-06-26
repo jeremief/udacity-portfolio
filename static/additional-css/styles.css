@@ -7,8 +7,9 @@ body {
 }
 
 .divider {
-    border-top: 3px simple #2d3c49;
-    height: 10px;
+    height: 3px;
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
 }
 
 h1 {
